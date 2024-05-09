@@ -9,3 +9,8 @@ for a in range (1,101):
     Lst.append(a)
 
 print(Lst)
+# creating a odd list
+odd = []
+for b in range (1,101,2):
+    odd.append(b)
+print(odd)
