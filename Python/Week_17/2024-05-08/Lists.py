@@ -21,10 +21,18 @@ for b in range (1,101,2):
 # printing the list odd
 print(odd)
 
+
 even = []
+
 
 for c in range(2,101,2):
     even.append(c)
 
 #printing the list even
 print(even)
+
+#create a variable named B that point to the first list that you created
+b = Lst
+
+#create a variable named joined that joins even a odd list using a operator
+ Joined = even+ odd
