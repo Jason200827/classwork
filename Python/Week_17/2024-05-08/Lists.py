@@ -8,7 +8,7 @@ Lst = []
 for a in range (1,101):
     Lst.append(a)
 
-#printing the list Lst
+# printing the list Lst
 print(Lst)
 
 # creating a empty list named  odd
@@ -28,11 +28,20 @@ even = []
 for c in range(2,101,2):
     even.append(c)
 
-#printing the list even
+# printing the list even
 print(even)
 
-#create a variable named B that point to the first list that you created
+# create a variable named B that point to the first list that you created
 b = Lst
 
-#create a variable named joined that joins even a odd list using a operator
- Joined = even+ odd
+# create a variable named joined that joins even a odd list using a operator
+Joined = even + odd
+
+# output the variable joined
+print(Joined)
+
+# output the type of the variable joined
+print(type(Joined))
+
+# compare the list B to the list joined  using positional comparison
+print(b==Joined)
