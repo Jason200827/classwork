@@ -1,0 +1,32 @@
+div {
+    border :2px lawngreen;
+}
+
+#first {
+    background-color: white;
+    padding: 50px 100px;
+    text-align: center;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#second {
+    background-color: chartreuse;
+    padding: 40px;
+}
+
+#third {
+    background-color: rebeccapurple;
+    padding: 30px;
+}
+
+#fourth {
+    background-color: blue;
+    padding: 20px;
+}
+
+#fifth {
+    background-color: greenyellow;
+    padding: 10px;
+}
